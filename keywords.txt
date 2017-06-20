@@ -1,0 +1,19 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+NetDebug	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+write	KEYWORD2
+available	KEYWORD2
+read	KEYWORD2
+peek	KEYWORD2
+flush	KEYWORD2
+end	KEYWORD2
+setDebugOutput	KEYWORD2
+echo	KEYWORD2
+crBeforeLF	KEYWORD2
+mirror	KEYWORD2
