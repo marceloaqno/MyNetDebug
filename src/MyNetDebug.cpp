@@ -85,6 +85,11 @@ size_t MyNetDebug::write(uint8_t b)
 			_mstream->write(b);
 		}
 		return _client.write(b);
+	} else if (_mstream) {
+		if (_crBeforeLF && b == '\n') {
+			_mstream->write('\r');
+		}
+		return _mstream->write(b);
 	}
 	return 0;
 }
